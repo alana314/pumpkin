@@ -109,9 +109,8 @@ void loop() {
   
     //back down
     digitalWrite(servo2Reverse, HIGH);
-    delay(5000);
+    delay(6000);
     digitalWrite(servo2Reverse, LOW);
-    delay(2000);
     buttonEnabled = true;
   }else
   {
